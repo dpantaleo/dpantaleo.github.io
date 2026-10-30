@@ -54,7 +54,7 @@
         <h1>Passenger Information Display (PID)</h1>
         <img src="cats1.jpg" alt="Picture of two cats." class="headerImg">
         <p class="date">Page created 22 May, 2026.</p>
-        <p class="date">Last updated 22 May, 2026.</p>
+        <p class="date">Last updated 30 October, 2026.</p>
         <br>
 
         <table><tr><td><h2>Background</h2></td></tr></table>
@@ -69,6 +69,31 @@
         <table><tr><td><h2>Materials</h2></td></tr></table>
 
         <table><tr><td><h2>Design</h2></td></tr></table>
+
+        <p> The display should at the very minimum display just one thing: the time until the next train.
+            But this wouldn't communicate all of the info that a commuter (me) could need when deciding to
+            travel the glorious Melbourne rail network. If the next train is only, say, two minutes away,
+            I can't make it to the station in time. So the following train departure should probably
+            also be displayed. The Mernda line also runs two different services, either the normal service
+            or the express service during peak times, so it'd be important to convey that information as well.
+            It would also be beneficial to display any unscheduled delays that the next two trains are
+            experiencing, and any planned work notifications have appeared through PTV. </p>
+        <p> Unnecessary information that shouldn't need to be displayed includes Mernda-bound train information,
+            since I don't really find myself catching the train in that direction, nor which platform the
+            train will be arriving on because, unless something has gone drastically wrong, it should always
+            arrive at Platform 1. The Mernda line does not change direction in the City Loop like some
+            other lines do, so there is no need to worry about displaying that. There is simply not enough
+            room on the board to display any further information or reason behind a scheduled or unscheduled
+            disruption.</p>
+        <p> Now the real issue is how to display all of this information on a _ x _ LED display. </p>
+        <p> Interestingly, Transport Victoria (formerly PTV), allows anyone to see the mockup of any
+            station's platform PID. For example, here is
+        <a href="https://transportvic.info/pid/metro-lcd/full-pid#s=ruthven&p=1&t=platform" target="_blank">Platform 1 for Ruthven Station.</a>
+            Just to remind you what a PID looks like nowadays. There is far too much information on this
+            kind of display to be crammed on the tiny LED matrix however. </p>
+        <p> The first decision to make is what typeface to use so that the information on the display is both
+            compact so that it fits on the limited space I have on the board, and still entirely legible.
+            A secondary concern is aesthetics but actual readable is a much higher requirement.  </p>
 
         <table><tr><td><h2>Simulation</h2></td></tr></table>
 
